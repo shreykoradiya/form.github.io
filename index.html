@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form method="post" action="insert.php" oninput="z.value=parseInt(x.value) * parseInt(y.value)">
+        <table>
+            <tr>
+                <td>Name:<b style="color:red">*</b><input type="text" name="name" placeholder="Name in Uppercase">
+                </td>
+            </tr>
+
+            <tr>
+                <td>SurName:<b style="color:red">*</b><input type="text" name="surname"
+                        placeholder="SurName in Uppercase"></td>
+            </tr>
+
+            <tr>
+                <td><input type="submit"></td>
+            </tr>
+
+        </table>
+
+    </form>
+
+    <form method="post" action="view.php" oninput="z.value=parseInt(x.value) * parseInt(y.value)">
+        <table>
+            <tr>
+                <td>Name:<b style="color:red">*</b><input type="text" name="name1" placeholder="Name in Uppercase">
+                </td>
+            </tr>
+
+            <tr>
+                <td><button type="submit">Retrive</button></td>
+            </tr>
+
+        </table>
+
+    </form>
+
+</body>
+
+</html>
